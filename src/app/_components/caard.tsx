@@ -1,6 +1,6 @@
 export default function Caard({img="",alt="",title="",content=""}) {
     return (
-        <div className="card bg-base-100 w-96 shadow-xl">
+        <div className="card bg-base-100 w-96 shadow-xl mx-auto">
             <figure>
                 <img src={img} alt={alt} />
             </figure>
